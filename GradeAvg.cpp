@@ -1,7 +1,7 @@
 ﻿// 09.05.2025
 
-// EN: A program that counts down from 15 with sleep, so it doesn't count down to 0 in less than a second.
-// PL: Program, ktory zlicza od 15 z lekkim opoznieniem, aby nie zliczylo do 0 w mniej niz sekunde.
+// EN: Program that calculates the average of 5 inserted grades.
+// PL: Program, ktory oblicza srednia 5 podanych ocen.
 
 #include <iostream>
 
