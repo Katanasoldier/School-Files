@@ -9,18 +9,18 @@ using namespace std;
 
 int main()
 {
-	int liczba;
-	int suma = 0;
+	int number;
+	int sum = 0;
 
 	do {
 		cout << "Prosze podac liczbe calkowita: ";
-		cin >> liczba;
-	} while (liczba <= 0);
+		cin >> number;
+	} while (number <= 0);
 
-	while (liczba > 0) {
-		suma += liczba % 10;
-		liczba /= 10;
+	while (number > 0) {
+		sum += number % 10;
+		number /= 10;
 	}
 
-	cout << suma;
+	cout << sum;
 }

@@ -8,17 +8,17 @@
 
 using namespace std;
 
-int Population = 1;
-int Day = 1;
+int population = 1;
+int day = 1;
 
 int main()
 {
 
-    while(Population<10000000){
-        Population *= 2;
-        Day++;
+    while(population<10000000){
+        population *= 2;
+        day++;
     }
 
-    cout << "On day " << Day << " there were " << Population << " bacteria.";
+    cout << "On day " << day << " there were " << population << " bacteria.";
 
 }

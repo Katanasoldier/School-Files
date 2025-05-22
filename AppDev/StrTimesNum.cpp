@@ -10,12 +10,12 @@ using namespace std;
 
 int main()
 {
-    string imie;
-    cin >> imie;
-    int liczba;
-    cin >> liczba;
+    string name;
+    cin >> name;
+    int number;
+    cin >> number;
 
-    for (int i = 1; i < liczba; i++) {
-        cout << imie << endl;
+    for (int i = 0; i < number; i++) {
+        cout << name << endl;
     }
 }

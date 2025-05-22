@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int oceny[6] = {0};
+int grades[6] = {0};
 
 int main()
 {
@@ -17,11 +17,11 @@ int main()
         cout << "Prosze podac " << i+1 << " ocene: ";
         cin >> tempVar;
 
-        oceny[i+1] = tempVar;
-        oceny[0] += tempVar;
+        grades[i+1] = tempVar;
+        grades[0] += tempVar;
     }
 
-    cout << "Srednia ocen wynosi: " << (float) oceny[0]/(sizeof(oceny)/sizeof(oceny[0])-1); // Calculates the average by dividing the first index of the array with the size of the array, minus the first index which holds the sum of the grades.
+    cout << "Srednia ocen wynosi: " << (float) grades[0]/(sizeof(grades)/sizeof(grades[0])-1); // Calculates the average by dividing the first index of the array with the size of the array, minus the first index which holds the sum of the grades.
 
 
     return 0;
